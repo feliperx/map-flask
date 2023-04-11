@@ -13,6 +13,11 @@ def homepage():
 def contacts():
     return render_template('contacts.html')
 
+@app.route('/users/<username>')
+def users(username):
+    return render_template('users.html', username = username)
+
+
 
 # start website 
 if __name__ == '__main__':
