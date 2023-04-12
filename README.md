@@ -8,3 +8,4 @@ Criando aplicação webGIS.
 
 - Flask 
 - Gunicorn
+- Folium
