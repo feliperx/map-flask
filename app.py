@@ -42,7 +42,7 @@ def mapView():
 
     folium.Marker(
         location=[2.822471, -60.664798],
-        popup="Ladeira da Praca da Bandeira",
+        popup="<b>Ladeira da Praca da Bandeira</b>",
         icon=folium.Icon(color="orange", icon="flag"),
     ).add_to(map)
 
@@ -64,12 +64,6 @@ def mapView():
         icon=folium.Icon(color="orange", icon="flag"),
     ).add_to(map)
 
-    folium.Marker(
-        location=[2.864260, -60.771365],
-        popup="Ladeira da TT",
-        icon=folium.Icon(color="orange", icon="flag"),
-    ).add_to(map)
-    
     
 
     return map._repr_html_()
