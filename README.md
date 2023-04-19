@@ -1,7 +1,7 @@
 # :earth_americas: Map Flask
 
 ### :computer: Projeto
-Criando aplicação webGIS.
+Criando aplicação WebGIS.
 
 
 ### :sparkles: Ferramentas:
